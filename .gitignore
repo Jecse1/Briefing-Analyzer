@@ -1,0 +1,29 @@
+# API 키 / 환경변수
+.env
+
+# STT 캐시 (용량 크고 URL 종속)
+cache/
+
+# 분석 결과물 (개인 데이터)
+output/
+
+# 학습 데이터 (팀 내부 데이터)
+examples.json
+
+# 임시 파일
+temp_audio.*
+_patch.py
+output_log.txt
+
+# Python 캐시
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Claude Code 내부
+.claude/
